@@ -1,5 +1,5 @@
 module Fluent
-  class Simple2obeject < Filter
+  class Simple2hash < Filter
     Plugin.register_input('simple2obeject', self)
 
     config_param :var, :string, :default => 'value'
