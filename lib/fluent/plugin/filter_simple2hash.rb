@@ -1,6 +1,6 @@
 module Fluent
   class Simple2hash < Filter
-    Plugin.register_input('simple2hash', self)
+    Plugin.register_filter('simple2hash', self)
 
     config_param :var, :string, :default => 'value'
 

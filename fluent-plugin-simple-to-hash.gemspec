@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-simple-to-hash"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Augusto Nishi"]
   spec.email         = ["augusto.nishi@gmail.com"]
   spec.summary       = %q{fluentd filter plugin for converting simple variable to hash}
