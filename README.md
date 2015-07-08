@@ -1,4 +1,4 @@
-# Fluent::Plugin::Simple Value to Object
+# Fluent::Plugin::Simple Value to Hash
 
 Fluent plugin for converting simple value variables to hash to be usable to others plugins
 
